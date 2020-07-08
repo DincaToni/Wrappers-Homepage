@@ -1,0 +1,141 @@
+﻿*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.backg {
+    background-image: url("images/wrappers\ backg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vh;;
+}
+.logo{
+   position:absolute;
+   left:35px;
+   top:5px;
+}
+
+.more{
+    display:flex;
+    justify-content: space-around;
+    float: right;
+    width: 45%;
+    list-style: none;
+}
+.more a{
+    font-family: 'Mina', sans-serif;
+    color:#F11F41;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.allignment1{
+    height:150px;
+    align-items: center;
+}
+.allignment2{
+    height:200px;
+    align-items: center;
+    margin: 3px;
+}
+.allignment3{
+    
+    width: 90%;
+}
+
+.v1{
+    border-left: 2px solid #F11F41;
+    height: 500px;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    border-radius: 10%;
+    margin: 205px 0px; 
+    margin-top: 0px;  
+}
+
+.style1{
+    font-size: 36px;
+    position: absolute;
+    left:8%;
+    color:#F11F41;
+    font-family: 'Mina', sans-serif;
+}
+.style2{
+    font-family: 'Mina', sans-serif;
+    color:#F11F41;
+    text-align: center; 
+}
+.style3{
+    font-family: 'Mina', sans-serif;
+    color:#F11F41;
+    text-align: left;
+    font-size: 31px;
+    width: 80%;
+    margin: 0px 150px;
+}
+.style4{
+    font-family: 'Mina', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.icon{
+    font-size: 200px;
+    color: #F11F41;
+}
+.icons{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin:  7% auto;
+}
+.button{
+    background-color: #F11F41;
+    border: none;
+    color: white;
+    padding: 20px 140px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Mina', sans-serif;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 12% 8%;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.box{
+    background-color: #fab0bd;
+    padding: auto;
+    
+    height: 450px;
+    border-radius: 6%;
+}
+.box2{
+    box-sizing: border-box;
+    width: 19%;
+    background-color: #F11F41;
+    border-radius: 50%;
+}
+.box:hover{
+    background-color: #F11F41;
+    cursor: pointer;
+}
+.box2:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #F11F41;
+}
+.footer{
+    background-color:#F11F41;
+    height: 300px;
+    margin: 0;
+    
+}
+
+@media screen  and (max-width:768px){
+    .style1{
+        font-size: 20px;
+    }
+}
